@@ -1,0 +1,28 @@
+.friend_list{
+    box-sizing: border-box;
+    padding: 0px;
+    width: 300px;
+    margin: 10px auto;
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: inset -1px 3px 8px 5px #d4dee9, 2px 5px 10px 0px #2e3c4e, 5px 5px 5px 5px rgb(194 188 188 / 0%);
+    border-radius: 4px;
+}
+.status{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.avatar{
+    border-radius: 20%;
+    background-color: rgb(233, 230, 227);}
+.name{
+    font-weight: 500;
+}

@@ -1,0 +1,23 @@
+.transaction_history{
+    box-sizing: border-box;
+    padding: 5px;
+    width: 600px;
+    margin: 10px auto;
+    box-shadow: inset -1px 3px 8px 5px #d4dee9, 2px 5px 10px 0px #2e3c4e, 5px 5px 5px 5px rgb(194 188 188 / 0%);
+    border-radius: 4px;
+}
+table th {
+    padding: 10px 10px;
+    text-align: center;
+    background-color: rgb(61, 122, 122);
+    color: aliceblue;
+    border-radius: 10px 10px 0px 0px;
+}
+table td{
+    text-align: center;
+    padding: 5px;
+    color: #525455;
+    border-style: dotted;
+    border-width: 0px 1px 1px 0px;
+    border-color: rgba(128, 128, 128, 0.498);
+}
