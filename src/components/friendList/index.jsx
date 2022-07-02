@@ -8,7 +8,6 @@ const FriendList = ({ friends }) => {
       {friends.map(friend => (
         <FriendsListItem key={friend.id} friend={friend} />
       ))}
-      ;
     </ul>
   );
 };
